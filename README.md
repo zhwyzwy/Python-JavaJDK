@@ -16,9 +16,9 @@ public FtpPut (String localFileName, String remoteFileName, String tranCode, int
 #
 方法说明：
 =====
-“localFileName”本地文件绝对路径，例如：/home/zyb/apps/file.txt；
+“localFileName”本地文件绝对路径，例如：/home/zyb/apps/filename.txt；
 
-“remoteFileName”为文件传输系统保存的文件名，例如：test/file.txt；（文件名长度linux限制长度为255，因为文件传输过程中服务端有临时文件，因此文件名长度不要超过255-26=229）
+“remoteFileName”为文件传输系统保存的文件名，例如：test/filename.txt；（文件名长度linux限制长度为255，因为文件传输过程中服务端有临时文件，因此文件名长度不要超过255-26=229）
 
 “tranCode”传输交易码，该字段内容请向文件传输系统管理员申请；
 
